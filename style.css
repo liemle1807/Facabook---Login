@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #e9eff1; /* Màu nền trang */
+}
+
+.login-container {
+    background-color: #fff; /* Màu nền của form */
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 360px; /* Chiều rộng của form */
+    text-align: center;
+}
+
+.logo img {
+    width: 150px; /* Kích thước logo */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333; /* Màu chữ tiêu đề */
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%; /* Chiều rộng của input */
+    padding: 14px; /* Khoảng cách trong input */
+    margin: 10px 0; /* Khoảng cách giữa các input */
+    border: 1px solid #dddfe2; /* Đường viền của input */
+    border-radius: 6px; /* Bo tròn góc của input */
+    font-size: 16px; /* Kích thước chữ trong input */
+}
+
+button {
+    width: 100%; /* Chiều rộng của nút */
+    padding: 14px; /* Khoảng cách trong nút */
+    background-color: #1877f2; /* Màu nền của nút */
+    color: white; /* Màu chữ trong nút */
+    border: none; /* Không có đường viền */
+    border-radius: 6px; /* Bo tròn góc của nút */
+    font-size: 18px; /* Kích thước chữ trong nút */
+    cursor: pointer; /* Con trỏ khi hover vào nút */
+}
+
+button:hover {
+    background-color: #155db0; /* Màu nền khi hover vào nút */
+}
+
+.register-link {
+    margin-top: 20px; /* Khoảng cách phía trên của link đăng ký */
+}
+
+.register-link a {
+    text-decoration: none; /* Không có gạch chân */
+    color: #1877f2; /* Màu chữ của link đăng ký */
+    font-size: 14px; /* Kích thước chữ của link */
+}
+
+.footer {
+    margin-top: 20px; /* Khoảng cách phía trên của footer */
+}
+
+.footer a {
+    color: #1877f2; /* Màu chữ của footer */
+    font-size: 14px; /* Kích thước chữ của footer */
+}
+
+#error-message {
+    color: red; /* Màu chữ thông báo lỗi */
+    margin-top: 15px; /* Khoảng cách phía trên của thông báo lỗi */
+    font-size: 14px; /* Kích thước chữ thông báo lỗi */
+}
